@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algorithm - Network Reliability Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Algorithm & Working</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="algorithm.html" class="active">Algorithm</a>
+      <a href="checker.html">Checker Tool</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Tarjan’s Algorithm Overview</h2>
+      <p>
+        The Network Reliability Checker uses <strong>Tarjan’s Depth-First Search (DFS)</strong>
+        algorithm to find articulation points and biconnected components in a graph.
+      </p>
+      <h3>Steps Involved:</h3>
+      <ol>
+        <li>Perform a DFS traversal of the network graph.</li>
+        <li>Track discovery and low times of each vertex.</li>
+        <li>If a vertex has a subtree that cannot reach an ancestor, it’s an articulation point.</li>
+        <li>Group edges to form biconnected components.</li>
+      </ol>
+      <h3>Applications:</h3>
+      <ul>
+        <li>Network fault tolerance and reliability analysis</li>
+        <li>Identifying critical routers and communication links</li>
+        <li>Enhancing secure and redundant network design</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Network Reliability Checker | Developed by [Your Name]</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Network Reliability Checker Tool</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Network Reliability Checker Tool</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="algorithm.html">Algorithm</a>
+      <a href="checker.html" class="active">Checker Tool</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Try it Yourself</h2>
+      <p>Enter your graph (edge list) below or load the sample graph:</p>
+      <textarea id="edgelist" placeholder="Example:
+7 8
+1 2
+1 3
+2 3
+2 4
+4 5
+5 6
+6 4
+6 7"></textarea>
+
+      <div class="buttons">
+        <button id="demoBtn">Load Demo</button>
+        <button id="runBtn">Run Checker</button>
+        <button id="clearBtn">Clear</button>
+      </div>
+
+      <div class="results">
+        <h3>Results:</h3>
+        <p><strong>Articulation Points:</strong></p>
+        <div id="apOut" class="output"></div>
+        <p><strong>Biconnected Components:</strong></p>
+        <div id="bccOut" class="output"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Network Reliability Checker | Developed by [Your Name]</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
